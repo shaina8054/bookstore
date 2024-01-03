@@ -1,0 +1,89 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Book Store</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <header>
+        <div class="menu-toggle" id="mobile-menu">
+            <span class="bar"></span>
+            <span class="bar"></span>
+            <span class="bar"></span>
+        </div>
+        <nav class="navbar">
+            <ul>
+                <li><a href="#">Home</a></li>
+                <li><a href="#">Genres</a></li>
+                <li><a href="#">About Us</a></li>
+                <!-- Add more navigation links as needed -->
+            </ul>
+        </nav>
+        <h1>Book Store</h1>
+        
+        <!-- Search bar -->
+        <div class="search-bar">
+            <input type="text" placeholder="Search...">
+            <button type="submit">Search</button>
+        </div>
+    </header>
+
+    <main>
+        <p>Welcome to our book store! Explore our collection of books based on your selected genre.</p>
+        <label for="genre">Select Genre:</label>
+        <select id="genre" name="genre">
+            <option value="fiction">Fiction</option>
+            <option value="nonfiction">Non-Fiction</option>
+            <option value="mystery">Mystery</option>
+            <option value="fantasy">Fantasy</option>
+            <!-- Add more genres as needed -->
+        </select>
+
+        <!-- Book section -->
+        <section id="book-section">
+            <!-- Book 1 -->
+            <div class="book">
+                <img src="assets\Sita_Warrior_of_Mithila_cover.jpg" alt="Book 1">
+                <h2>Sita : Warrior Of Mithila</h2>
+                <p>Author: Amish Tripathi</p>
+                <p>Genre: Fiction</p>
+                <p>Description: Focuses on one important character of the Ramayana : Sita.</p>
+            </div>
+
+            <!-- Book 2 -->
+            <div class="book">
+                <img src="assets\learn how to fly.jpg" alt="Book 2">
+                <h2>Learning how to fly : Life lesson for the youth </h2>
+                <p>Author: A.P.J Abdul Kalam</p>
+                <p>Genre: Self help</p>
+                <p>Description: This book is a collection of discourses that Dr.Kalam has given across the world</p>
+            </div>
+            
+            <div class="book">
+                <img src="book1.jpg" alt="Book 3">
+                <h2>Book Title 1</h2>
+                <p>Author: Author Name</p>
+                <p>Genre: Fiction</p>
+                <p>Description: Lorem ipsum dolor sit amet, consectetur adipiscing elit...</p>
+            </div>
+
+            <div class="book">
+                <img src="book1.jpg" alt="Book 3">
+                <h2>Book Title 1</h2>
+                <p>Author: Author Name</p>
+                <p>Genre: Fiction</p>
+                <p>Description: Lorem ipsum dolor sit amet, consectetur adipiscing elit...</p>
+            </div>
+            <!-- Add more books as needed -->
+        </section>
+
+        
+
+        <!-- Link to the second page -->
+        <a href="second_page.html">Go to Second Page</a>
+    </main>
+    <script src="script.js"></script>
+</body>
+</html>
